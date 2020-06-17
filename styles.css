@@ -2,7 +2,9 @@ body {
   text-align: center;
   background-color: #011F3F;
 }
-
+h3 {
+  color: green;
+}
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
@@ -16,7 +18,21 @@ body {
   margin: auto;
 
 }
-
+.clickme {
+  position: absolute;
+  right: 8%;
+  top: 20%;
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 5px solid black;
+  border-radius: 20%;
+  background-color: #FEF2BF;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
 .btn {
   margin: 25px;
   display: inline-block;
